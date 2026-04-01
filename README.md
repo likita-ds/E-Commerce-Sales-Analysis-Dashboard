@@ -1,21 +1,57 @@
-E-Commerce Sales Analysis Dashboard
-## Overview
+# E-Commerce Sales Analysis Dashboard
 
-Analyzed an e-commerce dataset to understand sales and profit trends across regions and product categories, and built an interactive Power BI dashboard for insights.
+## Project Overview
+This project focuses on analyzing an e-commerce dataset to extract meaningful business insights and visualize them using Python and Power BI.
 
-## Tools
+The goal is to understand sales performance, profitability, and factors affecting business decisions such as discounts and product categories.
 
-Python (Pandas), SQL (PandasQL), Power BI
+## Tools & Technologies Used
+- Python (Pandas, Matplotlib)
+- SQL (PandasQL)
+- Power BI
+- Jupyter Notebook / Google Colab
+- 
+## Project Workflow
+1. Data Loading using Pandas
+2. Data Cleaning
+   - Checked duplicate values
+   - Removed duplicates
+   - Cleaned column names
+3. Data Analysis using SQL queries
+4. Data Visualization using Python
+5. Dashboard creation in Power BI
 
-## Work Done
-Cleaned data (removed duplicates, handled missing values)
-Analyzed sales & profit using SQL
-Built interactive dashboard with KPIs and filters
+## Key Analysis Performed
+- Total Sales Calculation
+- Top Selling Sub-Categories
+- Sales by Category
+- Sales by Region
+- Profit by Category
+- Loss-Making Sub-Categories
+- Discount vs Profit Analysis
+- Profit Margin Analysis
+
 ## Key Insights
-West region has highest sales
-Technology category gives maximum profit
-Some sub-categories are loss-making
-High sales ≠ high profit
-## Impact
-Helps identify profitable areas and loss-making segments
-Supports data-driven business decisions
+- West region generates the highest sales
+- Technology category gives the highest profit
+- Some sub-categories like Tables result in losses
+- Higher discounts can reduce overall profit
+- Profit margin analysis helps identify efficient categories
+
+## Dashboard Features
+- KPI Cards (Total Sales, Total Profit)
+- Category-wise Sales Visualization
+- Region-wise Sales Comparison
+- Profit Analysis
+- Clean and interactive design
+
+## Future Improvements
+- Add time-based analysis (monthly/yearly trends)
+- Include predictive analysis using machine learning
+- Automate dashboard updates
+
+## Dataset
+Sample Superstore Dataset (commonly used for data analysis practice)
+
+## Conclusion
+This project demonstrates how data analysis can help businesses make better decisions by understanding sales patterns, profitability, and customer trends.
